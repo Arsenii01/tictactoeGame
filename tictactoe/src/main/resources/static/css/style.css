@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    color: #666;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+#box{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: white;
+    padding-bottom: 40px;
+}
+.label-text {
+    color: black;
+}
+.create-game-button {
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: block;
+    background-color: #ffc25e;
+    border: 0px;
+}
+.create-game-button:hover {
+    background-color: #ffd392;
+
+}
+#message{
+    background: #333;
+    color: #fff;
+}
+#gameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background-color: lightskyblue;
+    color: #FF8000;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+}
+#winnerMessage {
+    color: indianred;
+}
+
+.stats {
+    display: inline;
+
+}
+
+.stats-label {
+    display: inline;
+}
+#gameBoard li:hover, #reset:hover{
+    cursor: pointer;
+    background: #a4dbff;
+}
